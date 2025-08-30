@@ -734,13 +734,27 @@ If you find this work useful cite the original rPPG-Toolbox paper.
 
 # License
 - This repository has 5 repositories in it, where each of them has its own licence
-- The main repository at the root folder and the one in dataset_recorder use the Responsibel AI licence:
-<a href="https://www.licenses.ai/source-code-license">
-  <img src="https://images.squarespace-cdn.com/content/v1/5c2a6d5c45776e85d1482a7e/1546750722018-T7QVBTM15DQMBJF6A62M/RAIL+Final.png" alt="License: Responsible AI" width="30%">
-</a>
+- The main repository at the root folder and the one in dataset_recorder use the Responsibel AI licence
 - The demo application under template-matching-android uses the GPL licence
 - The mosse stabilizer under mosse uses the MIT licence
 - opencv_zoo uses the Apache Licence
+
+<a href="https://www.licenses.ai/source-code-license">
+  Responsible AI
+</a>
+
+<a href="https://www.gnu.org/licenses/gpl-3.0.html">
+  GPL
+</a>
+
+<a href="https://opensource.org/licenses/MIT">
+  MIT
+</a>
+
+<a href="https://www.apache.org/licenses/LICENSE-2.0">
+  Apache
+</a>
+
 
 # Acknowledgement 
 
