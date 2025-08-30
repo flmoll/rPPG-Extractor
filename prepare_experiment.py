@@ -51,7 +51,7 @@ if __name__ == "__main__":
             os.makedirs(output_dir)
         pipeline_configs_dir = output_dir
         
-
+    os.makedirs(pipeline_configs_dir, exist_ok=True)
 
     if experiment_to_run == "all":
         for experiment in experiment_names:
