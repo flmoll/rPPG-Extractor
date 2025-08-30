@@ -254,6 +254,8 @@ You can use either [`conda`](https://docs.conda.io/projects/conda/en/latest/user
 
 STEP 1: `git clone --recurse-submodules https://github.com/flmoll/rPPG-Extractor`
 
+STEP 2: `cd rPPG-Extractor` 
+
 STEP 2: `docker compose up -d` 
 
 STEP 3: `docker exec -it rppg-extractor-python-dev-container-1 /bin/bash` 
