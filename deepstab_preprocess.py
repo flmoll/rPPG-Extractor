@@ -28,7 +28,7 @@ if __name__ == "__main__":
         if file.endswith(".avi"):
             curr_stable_file = os.path.join(deepstab_stable_folder, file)
             curr_unstable_file = os.path.join(deepstab_unstable_folder, file)
-            curr_results_file = os.path.join(results_file, f"{file.split(".")[0]}.npy")
+            curr_results_file = os.path.join(results_file, f"{file.split('.')[0]}.npy")
             print(f"Results file: {curr_results_file}")
 
             if not os.path.exists(curr_unstable_file) or not os.path.exists(curr_stable_file):
