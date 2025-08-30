@@ -1,6 +1,4 @@
 
-![rPPG-Toolbox Logo](./figures/toolbox_logo.png)
-
 # Introduction
 
  <a href="https://github.com/ubicomplab/rPPG-Toolbox">rPPG-Toolbox</a> is an open-source platform designed for camera-based physiological sensing, also known as remote photoplethysmography (rPPG). This project forks rPPG-Toolbox and adds some functionalities:
@@ -10,6 +8,8 @@
  - We add a few efficiency improvements
  - We add a demo application for android in the folder template-matching-android
  - We add the functionality to train neural networks with a ground truth for the heart rate
+
+<!-- ![rPPG-Toolbox Logo](./figures/toolbox_logo.png) -->
 
 ![Overview of the rPPG](./figures/algorithm.png)
 
