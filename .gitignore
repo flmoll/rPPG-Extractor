@@ -17,3 +17,4 @@ configs/all_experiment_configs/*
 configs/pipeline/*
 configs/pipeline_results/*
 configs/pipeline_old/*
+!figures/*
