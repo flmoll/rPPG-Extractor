@@ -252,15 +252,17 @@ The table shows  Mean Absolute Error (MAE) and Mean Absolute Percent Error (MAPE
 
 You can use either [`conda`](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) or [`uv`](https://docs.astral.sh/uv/getting-started/installation/) with this toolbox. Most users are already familiar with `conda`, but `uv` may be a bit less familiar - check out some highlights about `uv` [here](https://docs.astral.sh/uv/#highlights). If you use `uv`, it's highly recommended you do so independently of `conda`, meaning you should make sure you're not installing anything in the base `conda` environment or any other `conda` environment. If you're having trouble making sure you're not in your base `conda` environment, try setting `conda config --set auto_activate_base false`.
 
-STEP 1: `docker compose up -d` 
+STEP 1: `git clone --recurse-submodules https://github.com/flmoll/rPPG-Extractor`
 
-STEP 2: `docker exec -it rppg-toolbox-python-dev-container-1 /bin/bash` 
+STEP 2: `docker compose up -d` 
 
-STEP 3: `cd src` 
+STEP 3: `docker exec -it rppg-extractor-python-dev-container-1 /bin/bash` 
 
-STEP 4: `bash setup.sh uv` 
+STEP 4: `cd src` 
 
-STEP 5: `source .venv/bin/activate`
+STEP 5: `bash setup.sh uv` 
+
+STEP 6: `source .venv/bin/activate`
 
 If you use Windows or other operating systems, consider using [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) and following the steps within `setup.sh` independently.
 
